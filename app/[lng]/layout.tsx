@@ -11,7 +11,7 @@ export default function RootLayout({ children, params: { lng } }) {
   return (
     <html lang={lng} dir={"ltr"}>
       <head />
-      <body className="mx-16">{children}</body>
+      <body className="mx-4 lg:mx-16">{children}</body>
     </html>
   );
 }
