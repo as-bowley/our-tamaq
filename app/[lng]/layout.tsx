@@ -1,7 +1,6 @@
 import "../globals.css";
 
 import { languages } from "../i18n/settings";
-import { Nav } from "../components/Nav";
 
 export async function generateStaticParams() {
   return languages.map((lng) => ({ lng }));

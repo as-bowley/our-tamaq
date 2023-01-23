@@ -43,7 +43,7 @@ export default function Dropdown({
               return (
                 <li key={l}>
                   {index > 0 && " or "}
-                  <Link href={`/${l}${path}`}>{l == "ug" ? "ئۇيغۇر" : l}</Link>
+                  <a href={`/${l}${path}`}>{l == "ug" ? "ئۇيغۇر" : l}</a>
                 </li>
               );
             })}
