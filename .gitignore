@@ -7,6 +7,8 @@
 
 # testing
 /coverage
+/app/[lng]/landing/
+/app/assets/images/collage/
 
 # next.js
 /.next/
